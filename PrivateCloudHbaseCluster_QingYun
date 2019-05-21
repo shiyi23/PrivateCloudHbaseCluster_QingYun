@@ -1,0 +1,23 @@
+cd /opt/hbase
+bin/hbase shell
+
+hbase(main):001:0> create 'test', 'cf'
+
+hbase(main):002:0> list 'test'
+
+hbase(main):003:0> put 'test', 'row1', 'cf:a', 'value1'
+
+hbase(main):004:0> put 'test', 'row2', 'cf:b', 'value2'
+
+hbase(main):005:0> put 'test', 'row3', 'cf:c', 'value3'
+
+scan 'test'
+
+get 'test', 'row1'
+
+disable 'test'
+
+drop 'test'
+
+
+
