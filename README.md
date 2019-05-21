@@ -1,0 +1,2 @@
+# PrivateCloudHbaseCluster_QingYun
+我的第一个Hbase集群
